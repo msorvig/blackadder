@@ -2,7 +2,7 @@ What are all these Qt blacklisted tests, anyway
 ===============================================
 
 Usage:
-    python blackadder.py /path/to/tetes/auto [platform] [--runtests] [--blame]
+    python blackadder.py /path/to/tests/auto [platform] [--runtests] [--blame]
 
 This will search for BLACKLIST files, parse them, filter for a spesific platform,
 and then optionally run the blacklisted test functions and git blame the BLACKLIST. 
